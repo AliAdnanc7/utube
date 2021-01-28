@@ -1,7 +1,7 @@
 
 class Messages:
 
-    START_MSG = "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube once you authorise me.You can know more from /help.\n\nThank you."
+    START_MSG = "Hi there {}.\n\n     مرحبا بكم في بوت رفع الى يوتيوب\n  للتواصل @AliS219  \n لمعرفة التعليمات اكتب \n\n /help"
 
     HELP_MSG = [
         ".",
@@ -16,23 +16,23 @@ class Messages:
         "**Now lets authorise.**\n\nYou need to give me the access to upload videos to your Youtube account.For that open the given link and allow access and copy the code. Come back here and type `/authorise copied-code` and send it.\n\n**Fear not!**\nI'm not a hacker or someone who wants to creep into people's privacy. I respect one's privacy. I'm here just to help anyone who wants help. If I was a hacker I won't be sitting here writing Telegram Bots."
     ]
 
-    NOT_A_REPLY_MSG = "Please reply to some video file."
+    NOT_A_REPLY_MSG = "يجب رد على فيديو ليتم عملية الرفع"
 
-    NOT_A_MEDIA_MSG = "No media file found. "+NOT_A_REPLY_MSG
+    NOT_A_MEDIA_MSG = "لم اجد الفيديو \n\n "+NOT_A_REPLY_MSG
 
-    NOT_A_VALID_MEDIA_MSG = "This is not a valid media"
+    NOT_A_VALID_MEDIA_MSG = "هذه ليست وسائط صالحة"
     
-    DAILY_QOUTA_REACHED = "Looks like you are trying to upload more than 6 videos today! By default youtube only allows about 6 uploads daily, so this request might fail!!"
+    DAILY_QOUTA_REACHED = "انا يمكن ان ارفع 6 فيديوهات باليوم  فقط .. عملية فشلة ... اصبر لليوم ثاني "
 
-    PROCESSING = "Processing....."
+    PROCESSING = "...يتم المعالجه "
 
-    NOT_AUTHENTICATED_MSG = "You have not authenticated me to upload video to any account. see /help to authenticate"
+    NOT_AUTHENTICATED_MSG = "لا تمتلك توكن قناة حاليا ... اكتب /help   /n/n ليتم عملية الاضافه"
 
-    NO_AUTH_CODE_MSG = "There is no code. Please provide some code"
+    NO_AUTH_CODE_MSG = "هذا ليس توكن القناة ..... تحقق من توكن القناة"
 
-    AUTH_SUCCESS_MSG = "Congrats, you have successfully authenticated me to upload to Youtube.\nHappy uploading!"
+    AUTH_SUCCESS_MSG = "تمت عملية ربط توكن بنجاح ... استعد للرفع فيديوهات"
 
-    AUTH_FAILED_MSG = "Authentication failed\nDetails:{}"
+    AUTH_FAILED_MSG = "فشل في عملية الربط\nDetails:{}"
     
-    AUTH_DATA_SAVE_SUCCESS = "Successfully saved the given auth data!"
+    AUTH_DATA_SAVE_SUCCESS = "تم حفظ توكن القناة بنجاح"
     
